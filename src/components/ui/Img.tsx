@@ -12,6 +12,7 @@ const blurMap = blur as Record<string, string>;
  * On load error it degrades to a neutral surface instead of a broken icon.
  */
 export default function Img({ src, ...rest }: ImageProps & { src: string }) {
+  const [retry, setRetry] = useState(0);
   const [failed, setFailed] = useState(false);
   const dataURL = blurMap[src];
 
@@ -25,10 +26,17 @@ export default function Img({ src, ...rest }: ImageProps & { src: string }) {
   // lazy-load firing through a transformed `.reveal` ancestor.
   const eager = rest.priority ? {} : { loading: "eager" as const };
 
+  // A transient fetch miss (cold deploy / CDN propagation) can otherwise leave a
+  // card permanently blank even though the WebP asset is present and valid.
+  // Before degrading to the neutral surface, retry the asset once with a
+  // cache-busting query so a momentary miss self-heals instead of sticking.
+  const resolvedSrc = retry > 0 ? `${src}${src.includes("?") ? "&" : "?"}r=${retry}` : src;
+
   return (
     <Image
-      src={src}
-      onError={() => setFailed(true)}
+      key={resolvedSrc}
+      src={resolvedSrc}
+      onError={() => (retry < 1 ? setRetry((n) => n + 1) : setFailed(true))}
       decoding="async"
       {...eager}
       {...(dataURL ? { placeholder: "blur" as const, blurDataURL: dataURL } : {})}
