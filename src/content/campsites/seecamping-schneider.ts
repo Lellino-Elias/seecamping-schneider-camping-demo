@@ -12,7 +12,6 @@ const seecampingSchneider: CampsiteConfig = {
   see: "Badesee Eben",
   regionLong: "Salzburger Sportwelt · Ski amadé · Salzburger Land",
 
-  theme: "editorial",
   heroVariant: "center",
 
   claim: "Direkt am Badesee Eben campen",
@@ -234,11 +233,11 @@ const seecampingSchneider: CampsiteConfig = {
   },
 
   kontakt: {
+    coords: { lat: 47.399422, lng: 13.396088 },
     tel: "+43 664 4502000",
     telHref: "tel:+436644502000",
     mail: "info@seecamping-schneider.at",
     adresse: "Badeseestraße 54 · 5531 Eben im Pongau · Salzburger Land",
-    coords: { lat: 47.3993189, lng: 13.3956491 },
   },
 
   languages: ["DE"],
