@@ -113,7 +113,7 @@ const seecampingSchneider: CampsiteConfig = {
       {
         name: "Wohn- & Schlaf-Fass",
         kind: "Schlaf-Fass aus Vollholz",
-        text: "Unser neues Schlaf-Fass aus Vollholz mit ausklappbarem Bett- & Tischsystem und Extra-Schlafkoje — den Sonnenaufgang in den Salzburger Bergen gibt es gratis dazu. Bettwäsche oder Schlafsack bitte selbst mitbringen.",
+        text: "Schlaf-Fass aus Vollholz mit Bett- & Tischsystem und Extra-Schlafkoje — Bettwäsche oder Schlafsack bitte selbst mitbringen.",
         image: { src: `${IMG}/gallery-a7b527bb88.webp`, alt: "Wohn- & Schlaf-Fass beim See-Camping Eben" },
         features: ["Vollholz", "Extra-Schlafkoje", "Bett- & Tischsystem"],
       },
