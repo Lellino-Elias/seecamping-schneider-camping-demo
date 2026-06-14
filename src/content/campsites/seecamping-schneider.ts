@@ -78,14 +78,14 @@ const seecampingSchneider: CampsiteConfig = {
       "Vom Stellplatz sind es nur ein paar Schritte ins kühle Nass — dazu Komfort-Stellplätze, ein Freizeitcenter mit Sauna und alles, was einen entspannten Campingtag ausmacht.",
     features: [
       {
+        title: "Badesee inklusive",
+        text: "Der Eintritt in den Badesee Eben ist für alle Campinggäste frei — Sandstrand und klares Bergwasser liegen gleich nebenan.",
+        image: { src: `${IMG}/gallery-cabf1f57e7.webp`, alt: "Sonniger Badesee Eben mit Sandstrand und Bergpanorama" },
+      },
+      {
         title: "Komfort-Stellplätze",
         text: "Parzellierte Plätze mit 80–100 m² und Anschluss für Strom, Gas, Wasser und Kanal — kostenloses WLAN am ganzen Gelände inklusive.",
         image: { src: `${IMG}/amenity-f0c85e6a42.webp`, alt: "Stellplätze für Wohnmobile am See-Camping Eben" },
-      },
-      {
-        title: "Badesee inklusive",
-        text: "Der Eintritt in den Badesee Eben ist für alle Campinggäste frei — Sandstrand und klares Bergwasser liegen gleich nebenan.",
-        image: { src: `${IMG}/gallery-cabf1f57e7.webp`, alt: "Sonnenaufgang am Badesee Eben" },
       },
       {
         title: "Restaurant am See",
