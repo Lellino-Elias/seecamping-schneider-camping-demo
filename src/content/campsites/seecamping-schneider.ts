@@ -138,7 +138,7 @@ const seecampingSchneider: CampsiteConfig = {
       {
         title: "KiTiWaPf-Wanderpfad",
         text: "Der Kinder-Tiere-Wanderpfad führt spielerisch durch Eben — Start in der Kreistsiedlung, Ziel direkt vor dem Campingplatz.",
-        image: { src: `${IMG}/kids-a8588a6294.webp`, alt: "Familie am KiTiWaPf Kinder-Tiere-Wanderpfad in Eben" },
+        image: { src: `${IMG}/kids-bc1dc38e2f.webp`, alt: "Familie mit Kindern beim Spielen an einer Almhütte bei Eben" },
       },
     ],
   },
@@ -156,7 +156,7 @@ const seecampingSchneider: CampsiteConfig = {
       {
         title: "Wandern in der Sportwelt",
         text: "Gut markierte Wege in allen Schwierigkeitsgraden, dazu Almen und Berggasthöfe zum Rasten — mitten in der Salzburger Sportwelt.",
-        image: { src: `${IMG}/activity-96eedeb5dd.webp`, alt: "Wanderer am Gerzkopf bei Eben" },
+        image: { src: `${IMG}/activity-7834b8c710.webp`, alt: "Paar beim Wandern mit Panoramablick auf die Salzburger Sportwelt" },
       },
       {
         title: "Almen & Einkehr",
@@ -171,7 +171,7 @@ const seecampingSchneider: CampsiteConfig = {
       {
         title: "Langlaufen ab Platz",
         text: "Der Einstieg in die Tauernloipe liegt direkt am Campingplatz — bestens präpariert für klassische Langläufer und Skater.",
-        image: { src: `${IMG}/activity-16760267b4.webp`, alt: "Langläufer auf der Loipe in der Salzburger Sportwelt" },
+        image: { src: `${IMG}/activity-bfa9f8a83c.webp`, alt: "Paar beim Winterwandern in der verschneiten Salzburger Sportwelt" },
       },
       {
         title: "Rodeln & Winterspaß",
@@ -209,8 +209,8 @@ const seecampingSchneider: CampsiteConfig = {
     images: [
       { src: `${IMG}/gallery-1ae5801ee4.webp`, alt: "Innenraum des Wohn- & Schlaf-Fasses mit Doppelbett" },
       { src: `${IMG}/gallery-2e8a162930.webp`, alt: "Wohn- & Schlaf-Fass mit Einzelbetten und Sitzbänken" },
-      { src: `${IMG}/activity-d562f27300.webp`, alt: "Mountainbiken in der Salzburger Sportwelt" },
-      { src: `${IMG}/kids-bc1dc38e2f.webp`, alt: "Familienwanderung zu einer Almhütte mit Spielplatz bei Eben" },
+      { src: `${IMG}/gallery-0f36a8cddc.webp`, alt: "Lucky Flitzer Ganzjahres-Rodelbahn in Flachau" },
+      { src: `${IMG}/kids-e6da28b5cc.webp`, alt: "Familie mit Kindern beim Skifahren im Familienskigebiet Monte Popolo" },
     ],
   },
 
